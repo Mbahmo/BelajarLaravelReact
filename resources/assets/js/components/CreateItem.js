@@ -1,4 +1,5 @@
 // CreateItem.js
+import {browserHistory} from 'react-router';
 
 import React, {Component} from 'react';
 
