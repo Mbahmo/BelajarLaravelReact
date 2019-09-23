@@ -13,8 +13,8 @@ class Master extends Component {
               <a className="navbar-brand" href="#">AppDividend</a>
             </div>
             <ul className="nav navbar-nav">
-              <li className="active"><a href="#">Test</a></li>
-              <li><a href="#">Page 1</a></li>
+              <li className="active"><a href="#">Home</a></li>
+              <li><a href="/add-item">Add Item</a></li>
               <li><a href="#">Page 2</a></li>
               <li><a href="#">Page 3</a></li>
             </ul>

@@ -12,11 +12,13 @@ import { Router, Route, browserHistory } from 'react-router';
 
 import Master from './components/Master';
 import CreateItem from './components/CreateItem';
+import DisplayItem from './components/DisplayItem';
 
 render(
   <Router history={browserHistory}>
       <Route path="/" component={Master} >
         <Route path="/add-item" component={CreateItem} />
+        <Route path="/display-item" component={DisplayItem} />
       </Route>
     </Router>,
         document.getElementById('example'));
@@ -27,4 +29,4 @@ render(
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-require('./components/Example');
+// require('./components/Example');
