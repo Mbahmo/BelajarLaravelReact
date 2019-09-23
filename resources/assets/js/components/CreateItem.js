@@ -29,7 +29,7 @@ class CreateItem extends Component {
     }
     let uri = 'http://localhost:8000/items';
     axios.post(uri, products).then((response) => {
-      // browserHistory.push('/display-item');
+      browserHistory.push('/display-item');
     });
   }
 
